@@ -1,0 +1,11 @@
+baseURL = "https://datumforge.net/"
+languageCode = "en-us"
+title = "Datumforge"
+
+disableKinds = ["home", "section", "taxonomy", "term", "sitemap", "RSS" ]
+ignoreErrors = ["error-disable-taxonomy"]
+
+publishDir = "docs"
+
+[Permalinks]
+	code = "/:filename/"
